@@ -1,0 +1,2 @@
+For common components across the app. It is for global common components and not module specific common components.
+For instance: button, textfield, loaders etc.

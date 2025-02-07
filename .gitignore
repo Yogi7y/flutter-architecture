@@ -1,0 +1,18 @@
+.vscode/settings.json
+build/
+.dart_tool/
+macos/
+ios/
+android/
+macos/
+linux/
+windows/
+web/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# FVM Version Cache
+.fvm/
+.fvm
+
+.DS_Store

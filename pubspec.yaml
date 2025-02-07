@@ -1,0 +1,32 @@
+name: orders
+description: "Orders"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  # Open source packages created by me for quick project setup with essential layers
+  # like networking, core utilities, and lint rules. Only using it for network service in this project.
+  # More on it here: https://github.com/Yogi-7y/Project-Y
+  core_y: ^0.3.2
+  network_y: ^0.1.4
+
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1 # State management.
+  meta: ^1.15.0 # Provides annotations like @immutable, @protected etc. Internally used by Flutter.
+  cached_network_image: ^3.4.1
+  intl: ^0.20.2
+  collection: ^1.19.0 # utility function to super power iterables. Internally used by Flutter as well, so no dependency overhead.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints_y: ^0.1.0 # Lint rules.
+  mocktail: ^1.0.4 # Mocking library for unit tests.
+
+flutter:
+  uses-material-design: true
